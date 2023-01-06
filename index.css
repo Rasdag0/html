@@ -1,0 +1,144 @@
+
+  .border {
+    border-width: 1px;
+    border: solid rgb(238, 115, 15);
+  }
+  #no-border {
+    border-style: none;
+  }
+  .info {
+    color: #5263f3;
+  }
+  .important {
+    text-align: center;
+  }
+  .big {
+    font-size: 24px;
+  }
+  .weight {
+    font-weight: bold;
+  }
+
+.italic {
+  font-style: italic;
+}
+.capica {
+  font-variant: small-caps;
+}
+.news {
+  text-decoration:underline;
+}
+.text-bold {
+  text-decoration: line-through;
+}
+.bold {
+  text-decoration: overline;
+}
+#red {
+  color: red;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.mezhdu.strok {
+  line-height: 36px;
+  font-size: 24px;
+}
+.verdana-text {
+  font-family:Arial, Helvetica, sans-serif;
+}
+.bold-text {
+  font: bold 24px Verdana, sans-serif;
+}
+.border.dotted {
+  border: 1px dotted rgb(8, 8, 8);
+  background-color: blue;
+}
+.border.dashed {
+  padding: 10px 10px 10px 30px;
+  border: 1px dashed rgb(8, 8, 8);
+}
+.border.solid {
+  border: 1px solid rgb(8, 8, 8);
+}
+.border.double {
+  border: 1px double rgb(8, 8, 8);
+}
+.border.groove {
+  border: 1px groove rgb(8, 8, 8);
+}
+.border.ridge {
+  border: 1px ridge rgb(8, 8, 8);
+}
+.border.inset {
+  border: 1px inset rgb(8, 8, 8);
+}
+.border.outset {
+  border: 1px outset rgb(8, 8, 8);
+  width: 300px;
+  height: 100px;
+}
+.border-bold {
+  border: 5px solid #2196F3;
+  background-color: beige;
+  width: 100px;
+  height: 100px;
+}
+.background {
+  padding: 10px 0 10px 20px;
+  background-color: #2196f3;
+}
+.padding {
+  padding: 30px 40px;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  width: 500px;
+}
+.card-hello {
+  background-color: #fa7268;
+  color: #ffffff;
+  width: 230px;
+  height: 25px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #9c27b0;
+  font-size: 20px;
+}
+.header {
+  font-size: 22px;
+
+}
+.offer {
+  font-size: 200%;
+}
+.background-black-50 {
+  background-color: rgba(0,0,0, 0.5);
+}
+@media(max-width: 700px) {
+  .white-text-mobile {
+    color: #fa7268;
+  } 
+}
+@keyframes textcolor {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+.textco {
+  animation: textcolor 5s infinite;
+}
+:root {
+  --main-blue:#00bfff;
+ }
+ .text2 {
+  background-color: var(--main-blue);
+ }
+ .relative-position {
+  position: relative;
+  top: 100px;
+  right: 50px;
+ }
